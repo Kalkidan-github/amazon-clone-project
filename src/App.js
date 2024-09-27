@@ -1,15 +1,8 @@
-import React from 'react';
-import './App.css';
-import Header from './Components/Header/Header';
-
+import React from "react";
+import Routing from "./Router";
 
 function App() {
-  return (
-    <div>
-
-      <Header/>
-    </div>
-  );
+  return <Routing />;
 }
 
 export default App;
